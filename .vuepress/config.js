@@ -30,7 +30,7 @@ module.exports = {
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "时间线",
         "link": "/timeline/",
         "icon": "reco-date"
       },
@@ -45,27 +45,31 @@ module.exports = {
       //   ]
       // },
       {
-        "text": "Contact",
+        "text": "联系",
         "icon": "reco-message",
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/SunRainw",
             "icon": "reco-github"
           }
         ]
       }
     ],
     sidebar,
+    "valineConfig": {
+      "appId": 'd13EHTWed0uSahiHvE6iymLs-gzGzoHsz',
+      "appKey": 'sl7aPkvGGj2uPv2qrMdWSlD8',
+    },
     "type": "blog",
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "目录"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
     "friendLink": [
@@ -87,7 +91,7 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "SunRain",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/avatar.jpeg",
     "record": "xxxx",
     "startYear": "2021"
   },

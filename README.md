@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: SunRain's Blog
-tagline: 我的博客
+heroText: SunRain's Home
+tagline: 记录学习和生活
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

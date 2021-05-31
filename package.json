@@ -11,5 +11,8 @@
     "vuepress": "1.8.2",
     "vuepress-theme-reco": "1.6.6"
   },
-  "description": "SunRain的个人微博"
+  "description": "SunRain的个人微博",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-comments": "^1.6.0"
+  }
 }

@@ -16,10 +16,10 @@ cd .vuepress/dist/
 git init
 git add -A
 git commit -m 'deploy'
-git remote add origin https://gitee.com/sunrainw/blog.git
-#git checkout -b gh-pages
+git remote add origin https://github.com/SunRainw/blog.git
+git checkout -b gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io
 #git push -f git@github.com:zpj80231/zpj80231.github.io.git gh-pages
-#git push origin :gh-pages
-git push -u origin master -f
+git push origin gh-pages
+git checkout main
