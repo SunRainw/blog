@@ -5,7 +5,7 @@
 set -e
 
 # 生成静态文件
-npm run build
+yarn run build
 
 # 进入生成的文件夹
 cd .vuepress/dist/
@@ -15,11 +15,10 @@ cd .vuepress/dist/
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'deploy'git push -u origin main
 git remote add origin https://github.com/SunRainw/blog.git
 git checkout -b gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io
 #git push -f git@github.com:zpj80231/zpj80231.github.io.git gh-pages
 git push origin gh-pages
-git checkout main
