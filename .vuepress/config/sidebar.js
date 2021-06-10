@@ -1,9 +1,9 @@
 // * 侧边栏
 const { createSideBarConfig } = require('./util')
 const JAVASCRIPT_PATH = '/blogs/javascript'
+const PERFORMANCE_PATH = '/blogs/performance'
 // const CSS_PATH = '/blogs/css'
 const NET_PATH = '/blogs/net'
-// const PERFORM_PATH = '/blogs/perform'
 // const INTERVIEW_PATH = '/blogs/interview'
 const BROWSER_PATH = '/blogs/browser'
 module.exports = {
@@ -14,12 +14,12 @@ module.exports = {
         // createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/js-v8'),
         // createSideBarConfig('JS-异步I/O及异步编程', JAVASCRIPT_PATH + '/js-async'),
       ],
+      [PERFORMANCE_PATH]: [createSideBarConfig('JS性能相关', PERFORMANCE_PATH)]
     //   [CSS_PATH]: [createSideBarConfig('CSS 技巧', CSS_PATH)],
     //   [NET_PATH]: [
     //     createSideBarConfig("TCP 协议", NET_PATH + '/tcp'),
     //     createSideBarConfig("HTTP 协议", NET_PATH + '/http')
     //   ],
-    //   [PERFORM_PATH]: [createSideBarConfig('前端性能相关', PERFORM_PATH)],
     //   [INTERVIEW_PATH]: [createSideBarConfig('面试经历', INTERVIEW_PATH)],
     //   [BROWSER_PATH]: [
     //     createSideBarConfig('浏览器渲染', BROWSER_PATH + '/browser-render'),

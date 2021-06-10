@@ -8,14 +8,14 @@ set -e
 yarn run build
 
 # 进入生成的文件夹
-cd .vuepress/dist/
+cd public/
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
 git init
 git add -A
-git commit -m 'deploy'git push -u origin main
+git commit -m 'deploy'
 git remote add origin https://github.com/SunRainw/blog.git
 git checkout -b gh-pages
 
