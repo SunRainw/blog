@@ -2,6 +2,7 @@
 const { createSideBarConfig } = require('./util')
 const JAVASCRIPT_PATH = '/blogs/javascript'
 const PERFORMANCE_PATH = '/blogs/performance'
+const ENGINEERING_PATH = '/blogs/engineering'
 // const CSS_PATH = '/blogs/css'
 const NET_PATH = '/blogs/net'
 // const INTERVIEW_PATH = '/blogs/interview'
@@ -14,7 +15,11 @@ module.exports = {
         // createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/js-v8'),
         // createSideBarConfig('JS-异步I/O及异步编程', JAVASCRIPT_PATH + '/js-async'),
       ],
-      [PERFORMANCE_PATH]: [createSideBarConfig('JS性能相关', PERFORMANCE_PATH)]
+      [PERFORMANCE_PATH]: [createSideBarConfig('JS性能相关', PERFORMANCE_PATH)],
+      [ENGINEERING_PATH]: [
+        createSideBarConfig('前端工程化概述', ENGINEERING_PATH + '/summarize'),
+        createSideBarConfig('脚手架工具', ENGINEERING_PATH + '/cli'),
+      ]
     //   [CSS_PATH]: [createSideBarConfig('CSS 技巧', CSS_PATH)],
     //   [NET_PATH]: [
     //     createSideBarConfig("TCP 协议", NET_PATH + '/tcp'),
