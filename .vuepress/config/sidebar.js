@@ -19,6 +19,7 @@ module.exports = {
       [ENGINEERING_PATH]: [
         createSideBarConfig('前端工程化概述', ENGINEERING_PATH + '/summarize'),
         createSideBarConfig('脚手架工具', ENGINEERING_PATH + '/cli'),
+        createSideBarConfig('自动化构建', ENGINEERING_PATH + '/auto-construction'),
       ]
     //   [CSS_PATH]: [createSideBarConfig('CSS 技巧', CSS_PATH)],
     //   [NET_PATH]: [
