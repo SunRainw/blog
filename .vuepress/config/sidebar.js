@@ -3,6 +3,7 @@ const { createSideBarConfig } = require('./util')
 const JAVASCRIPT_PATH = '/blogs/javascript'
 const PERFORMANCE_PATH = '/blogs/performance'
 const ENGINEERING_PATH = '/blogs/engineering'
+const MODULE_PATH = '/blogs/module'
 // const CSS_PATH = '/blogs/css'
 const NET_PATH = '/blogs/net'
 // const INTERVIEW_PATH = '/blogs/interview'
@@ -20,6 +21,9 @@ module.exports = {
         createSideBarConfig('前端工程化概述', ENGINEERING_PATH + '/summarize'),
         createSideBarConfig('脚手架工具', ENGINEERING_PATH + '/cli'),
         createSideBarConfig('自动化构建', ENGINEERING_PATH + '/auto-construction'),
+      ],
+      [MODULE_PATH]: [
+        createSideBarConfig('模块化开发', MODULE_PATH + '/module-develop'),
       ]
     //   [CSS_PATH]: [createSideBarConfig('CSS 技巧', CSS_PATH)],
     //   [NET_PATH]: [
