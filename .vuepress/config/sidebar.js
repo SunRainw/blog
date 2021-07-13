@@ -10,21 +10,21 @@ const NET_PATH = '/blogs/net'
 const BROWSER_PATH = '/blogs/browser'
 module.exports = {
     [JAVASCRIPT_PATH]: [
-        createSideBarConfig('JS-基础', JAVASCRIPT_PATH + '/js-base'),
-        // createSideBarConfig('JS-深入数组', JAVASCRIPT_PATH + '/js-array'),
-        // createSideBarConfig('JS-其它API原理', JAVASCRIPT_PATH + '/js-api'),
-        // createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/js-v8'),
-        // createSideBarConfig('JS-异步I/O及异步编程', JAVASCRIPT_PATH + '/js-async'),
-      ],
-      [PERFORMANCE_PATH]: [createSideBarConfig('JS性能相关', PERFORMANCE_PATH)],
-      [ENGINEERING_PATH]: [
-        createSideBarConfig('前端工程化概述', ENGINEERING_PATH + '/summarize'),
-        createSideBarConfig('脚手架工具', ENGINEERING_PATH + '/cli'),
-        createSideBarConfig('自动化构建', ENGINEERING_PATH + '/auto-construction'),
-      ],
-      [MODULE_PATH]: [
-        createSideBarConfig('模块化开发', MODULE_PATH + '/module-develop'),
-      ]
+      createSideBarConfig('JS-基础', JAVASCRIPT_PATH + '/js-base'),
+      // createSideBarConfig('JS-深入数组', JAVASCRIPT_PATH + '/js-array'),
+      // createSideBarConfig('JS-其它API原理', JAVASCRIPT_PATH + '/js-api'),
+      // createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/js-v8'),
+      // createSideBarConfig('JS-异步I/O及异步编程', JAVASCRIPT_PATH + '/js-async'),
+    ],
+    [PERFORMANCE_PATH]: [createSideBarConfig('JS性能相关', PERFORMANCE_PATH)],
+    [ENGINEERING_PATH]: [
+      createSideBarConfig('前端工程化概述', ENGINEERING_PATH + '/summarize'),
+      createSideBarConfig('脚手架工具', ENGINEERING_PATH + '/cli'),
+      createSideBarConfig('自动化构建', ENGINEERING_PATH + '/auto-construction'),
+    ],
+    [MODULE_PATH]: [
+      createSideBarConfig('模块化开发', MODULE_PATH + '/module-develop'),
+    ]
     //   [CSS_PATH]: [createSideBarConfig('CSS 技巧', CSS_PATH)],
     //   [NET_PATH]: [
     //     createSideBarConfig("TCP 协议", NET_PATH + '/tcp'),
