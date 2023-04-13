@@ -25,6 +25,8 @@ module.exports = {
     [MODULE_PATH]: [
       createSideBarConfig('模块化开发', MODULE_PATH + '/module-develop'),
       createSideBarConfig('Webpack', MODULE_PATH + '/webpack'),
+      createSideBarConfig('Rollup', MODULE_PATH + '/rollup'),
+      createSideBarConfig('Parcel', MODULE_PATH + '/parcel'),
     ]
     //   [CSS_PATH]: [createSideBarConfig('CSS 技巧', CSS_PATH)],
     //   [NET_PATH]: [
