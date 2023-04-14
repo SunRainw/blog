@@ -1,6 +1,5 @@
 node_modules/
 yarn.error
-yarn.lock
 .history/
 ./public/
 .vscode/

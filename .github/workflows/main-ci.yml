@@ -43,7 +43,7 @@ jobs:
           rm -rf node_modules/
           yarn
           yarn build
-          git checkout -f gh-pages
+          git checkout gh-pages
           cp -R public/* ./
           git add .
           git commit -m "update"
