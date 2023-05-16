@@ -8,8 +8,8 @@ const MODULE_PATH = '/blogs/module';
 const NET_PATH = '/blogs/net';
 // const INTERVIEW_PATH = '/blogs/interview'
 const BROWSER_PATH = '/blogs/browser';
-const VUE_PATH = '/blog/vue';
-const SSR_PATH = "/blog/ssr";
+const VUE_PATH = '/blogs/vue';
+const SSR_PATH = "/blogs/ssr";
 module.exports = {
   [JAVASCRIPT_PATH]: [
     createSideBarConfig('JS-基础', JAVASCRIPT_PATH + '/js-base'),
