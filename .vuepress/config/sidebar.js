@@ -18,7 +18,10 @@ module.exports = {
     // createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/js-v8'),
     // createSideBarConfig('JS-异步I/O及异步编程', JAVASCRIPT_PATH + '/js-async'),
   ],
-  [PERFORMANCE_PATH]: [createSideBarConfig('JS性能相关', PERFORMANCE_PATH)],
+  [PERFORMANCE_PATH]: [
+    createSideBarConfig('JS性能相关', PERFORMANCE_PATH + '/base'),
+    createSideBarConfig('JS性能相关', PERFORMANCE_PATH + '/optimization'),
+  ],
   [ENGINEERING_PATH]: [
     createSideBarConfig('前端工程化概述', ENGINEERING_PATH + '/summarize'),
     createSideBarConfig('脚手架工具', ENGINEERING_PATH + '/cli'),
